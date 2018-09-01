@@ -40,7 +40,7 @@ class Perceptron(object):
         self : obiekt
 
         """
-        self.w_ = np.zeros(1 + X.shape[1])
+        self.w_ = np.zeros(1 + X.shape[1]) #Return a new array of given shape and type, filled with zeros.
         self.errors_ = []
 
         for _ in range(self.n_iter):
